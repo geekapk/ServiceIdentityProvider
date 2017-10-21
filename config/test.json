@@ -1,0 +1,51 @@
+{
+    "ListenAddr": "127.0.0.1:5231",
+    "Services": [
+        {
+            "Name": "Alice",
+            "Key": "1e6bf318-989b-4aaf-8efb-e9f36da1818f"
+        },
+        {
+            "Name": "Bob",
+            "Key": "4bddb0a4-3ef6-468e-94c0-1e44706fb706"
+        },
+        {
+            "Name": "Cindy",
+            "Key": "8fc6feca-0716-4f45-9bef-f3b7b90b85ff"
+        },
+        {
+            "Name": "David",
+            "Key": "3886f494-70e6-4645-b850-7accd371ef30"
+        },
+        {
+            "Name": "Elizabeth",
+            "Key": "f4087f09-a2cc-4ca9-be21-42ea445cb6f9"
+        }
+    ],
+    "Groups": [
+        {
+            "Name": "A",
+            "Key": "3369c60d-c0c2-4611-aa84-2ad61180822c",
+            "Members": [
+                "Alice",
+                "Bob"
+            ]
+        },
+        {
+            "Name": "B",
+            "Key": "e85cb348-e80f-47d5-af01-d82380fbcbad",
+            "Members": [
+                "Bob",
+                "Cindy"
+            ]
+        },
+        {
+            "Name": "C",
+            "Key": "202bf6bf-3dea-4c1f-b337-5c3464edeb6c",
+            "Members": [
+                "David",
+                "Elizabeth"
+            ]
+        }
+    ]
+}
